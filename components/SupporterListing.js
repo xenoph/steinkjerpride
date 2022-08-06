@@ -1,21 +1,125 @@
-import Container from "./container";
+import Image from "next/image";
+import { useEffect } from "react";
+import BlueBox from "./BlueBox";
+import PinkBox from "./PinkBox";
 
 const SupporterListing = ({ supporters }) => {
-  console.log(supporters[0].fields);
-  return (
-    <section className="py-8">
-      <Container>
-        <div className="border-y-2 border-gray-400 flex flex-row flex-wrap justify-evenly items-center px-4">
-          <p className="p-4">Rød Tråd</p>
-          <p className="p-4">Steinkjer Kino</p>
-          <p className="p-4">Steinkjer Kommune</p>
-          <p className="p-4">Osteloffene</p>
-          <p className="p-4">Felleskjøpet</p>
-          <p className="p-4">KG 33</p>
-        </div>
-      </Container>
-    </section>
-  );
+	return (
+		<>
+			{/* . 
+			<section className="py-8">
+				<BlueBox>
+					<h2 className="text-[#666] uppercase text-4xl text-center pb-7 font-bold">
+						Stolt hovedsponsor
+					</h2>
+					<div className="flex flex-row justify-start">
+						{supporters &&
+							supporters.map((supporter) => {
+								if (
+									supporter.fields.sponsortype.fields.name !==
+									"hovedsponsor"
+								) {
+									return null;
+								}
+
+								return (
+									<div key="supporter.fields.name">
+										<Image
+											src={
+												"https:" +
+												supporter.fields.logo.fields
+													.file.url
+											}
+											alt={`Logo for ${supporter.fields.name}`}
+											width={300}
+											height={300}
+										/>
+										<p className="text-center">
+											{supporter.fields.name}
+										</p>
+									</div>
+								);
+							})}
+					</div>
+				
+				</BlueBox>
+			</section>
+				
+				*/}
+			<section className="py-8">
+				<PinkBox>
+					<h2 className="text-[#666] uppercase text-4xl text-center pb-7 font-bold">
+						Stolt sponsor
+					</h2>
+					<div className="flex flex-row justify-start">
+						{supporters &&
+							supporters.map((supporter) => {
+								if (
+									supporter.fields.sponsortype.fields.name !==
+									"sponsor"
+								) {
+									return null;
+								}
+
+								return (
+									<div key="supporter.fields.name">
+										<Image
+											src={
+												"https:" +
+												supporter.fields.logo.fields
+													.file.url
+											}
+											alt={`Logo for ${supporter.fields.name}`}
+											width={300}
+											height={300}
+										/>
+										<p className="text-center">
+											{supporter.fields.name}
+										</p>
+									</div>
+								);
+							})}
+					</div>
+				</PinkBox>
+			</section>
+			<section className="py-8">
+				<BlueBox>
+					<h2 className="text-[#666] uppercase text-4xl text-center pb-7 font-bold">
+						Stolt støttespiller
+					</h2>
+					<div className="flex flex-row justify-start">
+						{supporters &&
+							supporters.map((supporter) => {
+								if (
+									supporter.fields.sponsortype.fields.name !==
+									"stottespiller"
+								) {
+									return null;
+								}
+
+								return (
+									<div key="supporter.fields.name">
+										<Image
+											src={
+												"https:" +
+												supporter.fields.logo.fields
+													.file.url
+											}
+											alt={`Logo for ${supporter.fields.name}`}
+											width={150}
+											height={150}
+										/>
+										<p className="text-center">
+											{supporter.fields.name}
+										</p>
+									</div>
+								);
+							})}
+					</div>
+				</BlueBox>
+			</section>
+		</>
+	);
 };
 
 export default SupporterListing;
