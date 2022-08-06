@@ -1,5 +1,5 @@
-import Layout from "../components/layout";
-import Intro from "../components/intro";
+import Layout from "../components/Layout";
+import Intro from "../components/Intro";
 import NewsListing from "../components/NewsListing";
 import AboutUs from "../components/AboutUs";
 import SupporterListing from "../components/SupporterListing";
