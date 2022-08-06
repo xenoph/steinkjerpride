@@ -1,5 +1,3 @@
-import Container from "./container";
-
 export default function Footer() {
 	return (
 		<footer className="bg-[#ffff9f]/[0.47] border-t border-accent-2">
