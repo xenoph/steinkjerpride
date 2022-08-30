@@ -50,7 +50,7 @@ const SupporterListing = ({ supporters }) => {
 					<h2 className="text-[#666] uppercase text-4xl text-center pb-7 font-bold">
 						Stolt sponsor
 					</h2>
-					<div className="flex flex-row justify-start">
+					<div className="flex flex-row justify-center">
 						{supporters &&
 							supporters.map((supporter) => {
 								if (
@@ -61,7 +61,10 @@ const SupporterListing = ({ supporters }) => {
 								}
 
 								return (
-									<div key="supporter.fields.name">
+									<div
+										key="supporter.fields.name"
+										className="p-6"
+									>
 										<Image
 											src={
 												"https:" +
@@ -86,7 +89,7 @@ const SupporterListing = ({ supporters }) => {
 					<h2 className="text-[#666] uppercase text-4xl text-center pb-7 font-bold">
 						Stolt støttespiller
 					</h2>
-					<div className="flex flex-row justify-start">
+					<div className="flex flex-row justify-center">
 						{supporters &&
 							supporters.map((supporter) => {
 								if (
@@ -97,7 +100,10 @@ const SupporterListing = ({ supporters }) => {
 								}
 
 								return (
-									<div key="supporter.fields.name">
+									<div
+										key="supporter.fields.name"
+										className="p-4"
+									>
 										<Image
 											src={
 												"https:" +

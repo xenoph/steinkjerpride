@@ -1,4 +1,6 @@
 const Intro = () => {
+	//TODO: This can be done better. An element can have multiple background-image, so I can use both linear-gradient AND an url in the same!
+	// No point in having the <figure> probably? Just everything in the section?
 	return (
 		<section className="flex-col md:flex-col flex items-center md:justify-between mb-16 md:mb-12 relative bg-gradient-to-b from-[#3391E9]/50 to-[#ECC3E7]/50 h-screen">
 			<figure

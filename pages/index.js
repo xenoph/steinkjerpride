@@ -26,7 +26,9 @@ export const getStaticProps = async () => {
 		accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
 	});
 
-	const supps = await client.getEntries({ content_type: "supporter" });
+	const supps = await client.getEntries({
+		content_type: "supporter",
+	});
 	const posts = await client.getEntries({ content_type: "newsPost" });
 
 	return {

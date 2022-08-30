@@ -1,14 +1,18 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import BlueBox from "./BlueBox";
 import Image from "next/image";
+import Link from "next/link";
 
 const NewsListing = ({ newsPosts }) => {
+	const [posts, setPosts] = useState();
+
 	useEffect(() => {
 		//Sort the posts by date, then slice up and only show the first 3
 		// eslint-disable-next-line react-hooks/exhaustive-deps
-		newsPosts = newsPosts
+		const sortedPosts = newsPosts
 			.sort((a, b) => a.fields.date < b.fields.date)
-			.slice(0, 2);
+			.slice(0, 3);
+		setPosts(sortedPosts);
 	}, [newsPosts]);
 
 	return (
@@ -17,11 +21,11 @@ const NewsListing = ({ newsPosts }) => {
 				SISTE NYTT
 			</h2>
 			<div className="flex flex-col md:flex-row gap-8 justify-start">
-				{newsPosts &&
-					newsPosts.map((post) => {
+				{posts &&
+					posts.map((post) => {
 						const months = [
 							"Januar",
-							"Februs",
+							"Februar",
 							"Mars",
 							"April",
 							"Mai",
@@ -56,7 +60,11 @@ const NewsListing = ({ newsPosts }) => {
 								</h3>
 								<p className="uppercase text-base">{date}</p>
 								<p className="my-3">{post.fields.excerpt}</p>
-								<p>Link her</p>
+								<Link href={`/newsposts/${post.fields.slug}`}>
+									<span className="underline cursor-pointer">
+										Les mer
+									</span>
+								</Link>
 							</div>
 						);
 					})}
