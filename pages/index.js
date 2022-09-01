@@ -36,5 +36,6 @@ export const getStaticProps = async () => {
 			supporters: supps.items,
 			posts: posts.items,
 		},
+		revalidate: 300,
 	};
 };
