@@ -50,7 +50,7 @@ const SupporterListing = ({ supporters }) => {
 					<h2 className="text-[#666] uppercase text-4xl text-center pb-7 font-bold">
 						Stolt sponsor
 					</h2>
-					<div className="flex flex-row justify-center">
+					<div className="flex flex-col md:flex-row justify-center">
 						{supporters &&
 							supporters.map((supporter) => {
 								if (
@@ -102,7 +102,7 @@ const SupporterListing = ({ supporters }) => {
 								return (
 									<div
 										key="supporter.fields.name"
-										className="p-4 flex-[0_1_20%] justify-center items-center text-center"
+										className="p-4 flex-[0_1_50%] md:flex-[0_1_20%] justify-center items-center text-center"
 									>
 										<Image
 											src={
