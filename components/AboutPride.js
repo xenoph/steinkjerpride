@@ -10,7 +10,25 @@ const AboutPride = () => {
 						OM STEINKJER PRIDE
 					</h2>
 					<p className="text-[#39393A] text-[18px] pt-6 flex-[3]">
-						Om Steinkjer Pride
+						Steinkjer Pride ble arrangert for første gang i 2019 og
+						vokser seg større for hvert år. Gjennom de siste årene
+						har vi knyttet til oss trofaste sponsorer og partnere.
+						Viktigst av alt er likevel de frivillige. Steinkjer
+						Pride er et initiativ fra Rød Tråd, men hadde ikke vært
+						mulig uten de mange timene med frivillig innsats som
+						ligger bak.
+						<br />
+						<br />
+						Steinkjer Pride skal være tilgjengelig for alle. Vi har
+						derfor gjort det til et poeng å ha gratis arrangement
+						for barn og et eget pride-arrangement for ungdom 13-18
+						år. Paraden er prides viktigste arrangement der vi
+						samles med paroler, slagord, dans, glede og musikk.
+						Pride Aften er en helaften der man får god mat, i herlig
+						selskap og et forrykende show med ekte pridestemning!
+						<br />
+						<br />
+						Vi sees på pride!
 					</p>
 				</div>
 				<div className="pt-[60px] pb-[60px] flex flex-col md:flex-row gap-5">

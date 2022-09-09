@@ -3,19 +3,64 @@ import BlueBox from "./BlueBox";
 const ProgramListing = () => {
 	return (
 		<BlueBox>
-			<div className="flex flex-col md:flex-row justify-between w-full gap-5">
+			<div className="flex flex-col justify-between w-full gap-5">
 				<div className="flex flex-col lg:w-[430px]">
 					<h2 className="text-[#666] font-bold text-4xl flex-1">
 						PROGRAM
 					</h2>
-					<p className="text-[#39393A] text-[18px] pt-6 flex-[3]">
-						Fredag
-					</p>
 				</div>
-				<div className="pt-[60px] pb-[60px] flex flex-col md:flex-row gap-5">
-					<p className="text-[#39393A] text-[18px] pt-6 flex-[3]">
-						Lørdag
-					</p>
+				<div className="flex md:flex-row flex-col md:justify-between">
+					<div className="flex flex-col">
+						<p className="text-[#39393A] text-[24px] pt-6 flex-[3] font-bold">
+							Torsdag
+						</p>
+					</div>
+					<div className="flex flex-col leading-none">
+						<p className="text-[#39393A] text-[24px] pt-6 flex-[3] font-bold">
+							Fredag
+						</p>
+						<p className="text-[#39393A] text-[18px] pt-5 flex-[1]">
+							BARNE-DISCO
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							17:00 - 18:30
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							Festsalen Samfunnshuset
+						</p>
+						<p className="text-[#39393A] text-[18px] pt-5 flex-[1]">
+							UNG PRIDE
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							19:00 - 21:30
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							Klubbscenen - Samfunnshuset
+						</p>
+					</div>
+					<div className="flex flex-col leading-none">
+						<p className="text-[#39393A] text-[18px] pt-6 flex-[3] font-bold">
+							Lørdag
+						</p>
+						<p className="text-[#39393A] text-[18px] pt-5 flex-[1]">
+							PRIDE PARADE
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							12:00
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							Oppmøte Trifolium (Amfi)
+						</p>
+						<p className="text-[#39393A] text-[18px] pt-5 flex-[1]">
+							PRIDEAFTEN
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							19:00
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							Dampsaga
+						</p>
+					</div>
 				</div>
 			</div>
 		</BlueBox>

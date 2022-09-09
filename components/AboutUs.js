@@ -10,7 +10,11 @@ const AboutUs = () => {
 						OM RØD TRÅD
 					</h2>
 					<p className="text-[#39393A] text-[18px] pt-6 flex-[3]">
-						Om Rød Tråd
+						Rød Tråd skal fremme samfunnsengasjement (for unge
+						voksne), og skape sosiale arenaer hvor vi samles til
+						diskusjon, engasjement og debatt. Vi ønsker flere våkne
+						hoder som bryr seg om det som angår oss alle, med vekt
+						på likestilling, kjønn, og annen relevant tematikk.
 					</p>
 				</div>
 				<div className="pt-[60px] pb-[60px] flex flex-col md:flex-row gap-5">
