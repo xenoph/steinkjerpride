@@ -1,17 +1,17 @@
 import Layout from "../components/Layout";
 import Intro from "../components/Intro";
-import NewsListing from "../components/NewsListing";
 import AboutUs from "../components/AboutUs";
 import SupporterListing from "../components/SupporterListing";
 import { createClient } from "contentful";
 import AboutPride from "../components/AboutPride";
 import Skamlos from "../components/Skamlos";
+import ProgramListing from "../components/ProgramListing";
 
 export default function Home({ supporters, posts }) {
 	return (
 		<Layout>
 			<Intro />
-			<NewsListing newsPosts={posts} />
+			<ProgramListing />
 			<AboutPride />
 			<AboutUs />
 			<SupporterListing supporters={supporters} />
