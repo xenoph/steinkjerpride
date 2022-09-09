@@ -11,8 +11,8 @@ const Intro = () => {
 					zIndex: "-1",
 				}}
 			/>
-			<div className="relative flex-col items-center text-center p-11 pt-[175px]">
-				<h1 className="text-6xl md:text-[150px] lg:text-[200px] font-bold tracking-tighter leading-tight md:pr-8 text-white mb-12">
+			<div className="relative flex-col items-center text-center p-11 pt-[125px]">
+				<h1 className="text-6xl md:text-[150px] lg:text-[175px] font-bold tracking-tighter leading-tight md:pr-8 text-white mb-12">
 					STEINKJER
 					<br />
 					PRIDE
