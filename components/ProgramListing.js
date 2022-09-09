@@ -10,9 +10,32 @@ const ProgramListing = () => {
 					</h2>
 				</div>
 				<div className="flex md:flex-row flex-col md:justify-between">
-					<div className="flex flex-col">
+					<div className="flex flex-col leading-none">
+						<p className="text-[#39393A] text-[24px] pt-6 flex-[3] font-bold">
+							Onsdag
+						</p>
+						<p className="text-[#39393A] text-[18px] pt-5 flex-[1]">
+							SKEIV PRAT
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							19:00 - 21:00
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							Samfunnshuset
+						</p>
+					</div>
+					<div className="flex flex-col leading-none">
 						<p className="text-[#39393A] text-[24px] pt-6 flex-[3] font-bold">
 							Torsdag
+						</p>
+						<p className="text-[#39393A] text-[18px] pt-5 flex-[1]">
+							DRAG BINGO
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							20:00
+						</p>
+						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
+							Vårt Hjem
 						</p>
 					</div>
 					<div className="flex flex-col leading-none">
@@ -39,7 +62,7 @@ const ProgramListing = () => {
 						</p>
 					</div>
 					<div className="flex flex-col leading-none">
-						<p className="text-[#39393A] text-[18px] pt-6 flex-[3] font-bold">
+						<p className="text-[#39393A] text-[24px] pt-6 flex-[3] font-bold">
 							Lørdag
 						</p>
 						<p className="text-[#39393A] text-[18px] pt-5 flex-[1]">
@@ -58,7 +81,7 @@ const ProgramListing = () => {
 							19:00
 						</p>
 						<p className="text-[#39393A] text-[14px] pt-1 flex-[1]">
-							Dampsaga
+							Klubbscenen - Samfunnshuset
 						</p>
 					</div>
 				</div>
