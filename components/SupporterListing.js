@@ -47,10 +47,10 @@ const SupporterListing = ({ supporters }) => {
 				*/}
 			<section className="py-8">
 				<PinkBox>
-					<h2 className="text-[#666] uppercase text-4xl text-center pb-7 font-bold">
+					<h2 className="text-[#666] uppercase text-4xl text-center font-bold pb-6 lg:pb-0">
 						Stolt sponsor
 					</h2>
-					<div className="flex flex-col md:flex-row justify-center">
+					<div className="flex flex-col md:flex-row justify-around flex-wrap gap-6">
 						{supporters &&
 							supporters.map((supporter) => {
 								if (
@@ -63,19 +63,21 @@ const SupporterListing = ({ supporters }) => {
 								return (
 									<div
 										key="supporter.fields.name"
-										className="p-6"
+										className="p-3 flex flex-col min-w-[125px] lg:flex-1 flex-[0_1_33%]"
 									>
-										<Image
-											src={
-												"https:" +
-												supporter.fields.logo.fields
-													.file.url
-											}
-											alt={`Logo for ${supporter.fields.name}`}
-											width={300}
-											height={300}
-										/>
-										<p className="text-center">
+										<div className="relative lg:h-52 lg:max-h-52 max-h-40 h-40">
+											<Image
+												src={
+													"https:" +
+													supporter.fields.logo.fields
+														.file.url
+												}
+												alt={`Logo for ${supporter.fields.name}`}
+												layout="fill"
+												objectFit={"contain"}
+											/>
+										</div>
+										<p className="text-center text-lg pt-3 ">
 											{supporter.fields.name}
 										</p>
 									</div>
