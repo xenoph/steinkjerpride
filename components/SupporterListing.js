@@ -63,7 +63,7 @@ const SupporterListing = ({ supporters }) => {
 								return (
 									<div
 										key="supporter.fields.name"
-										className="p-3 flex flex-col min-w-[125px] lg:flex-1 flex-[0_1_33%]"
+										className="p-3 min-w-[125px] lg:flex-1 flex-[0_1_33%]"
 									>
 										<div className="relative lg:h-52 lg:max-h-52 max-h-40 h-40">
 											<Image
@@ -77,9 +77,6 @@ const SupporterListing = ({ supporters }) => {
 												objectFit={"contain"}
 											/>
 										</div>
-										<p className="text-center text-lg pt-3 ">
-											{supporter.fields.name}
-										</p>
 									</div>
 								);
 							})}
@@ -106,19 +103,18 @@ const SupporterListing = ({ supporters }) => {
 										key="supporter.fields.name"
 										className="p-4 flex-[0_1_50%] md:flex-[0_1_20%] justify-center items-center text-center"
 									>
-										<Image
-											src={
-												"https:" +
-												supporter.fields.logo.fields
-													.file.url
-											}
-											alt={`Logo for ${supporter.fields.name}`}
-											width={150}
-											height={150}
-										/>
-										<p className="text-center">
-											{supporter.fields.name}
-										</p>
+										<div className="relative lg:max-h-40 lg:h-40 max-h-32 h-32">
+											<Image
+												src={
+													"https:" +
+													supporter.fields.logo.fields
+														.file.url
+												}
+												alt={`Logo for ${supporter.fields.name}`}
+												layout="fill"
+												objectFit={"contain"}
+											/>
+										</div>
 									</div>
 								);
 							})}
