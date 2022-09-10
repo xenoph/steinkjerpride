@@ -3,13 +3,13 @@ import BlueBox from "./BlueBox";
 const ProgramListing = () => {
 	return (
 		<BlueBox>
-			<div className="flex flex-col justify-between w-full gap-5">
+			<div className="flex flex-col justify-between w-full gap-5 items-center md:items-stretch">
 				<div className="flex flex-col lg:w-[430px]">
 					<h2 className="text-[#666] font-bold text-4xl flex-1">
 						PROGRAM
 					</h2>
 				</div>
-				<div className="flex md:flex-row flex-col md:justify-between">
+				<div className="flex md:flex-row flex-col md:justify-between w-[80vw] text-center">
 					<div className="flex flex-col leading-none">
 						<p className="text-[#39393A] text-[24px] pt-6 flex-[3] font-bold">
 							Onsdag
