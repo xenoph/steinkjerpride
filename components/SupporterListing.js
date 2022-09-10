@@ -103,7 +103,7 @@ const SupporterListing = ({ supporters }) => {
 										key="supporter.fields.name"
 										className="p-4 flex-[0_1_50%] md:flex-[0_1_25%] justify-center items-center text-center"
 									>
-										<div className="relative lg:max-h-40 lg:h-40 max-h-32 h-32">
+										<div className="relative lg:max-h-32 lg:h-32 max-h-28 h-28">
 											<Image
 												src={
 													"https:" +
