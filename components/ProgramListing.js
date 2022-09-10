@@ -9,7 +9,7 @@ const ProgramListing = () => {
 						PROGRAM
 					</h2>
 				</div>
-				<div className="flex md:flex-row flex-col md:justify-between w-[80vw] text-center">
+				<div className="flex md:flex-row flex-col md:justify-between w-[80vw] md:w-[95vw] lg:w-auto text-center">
 					<div className="flex flex-col leading-none">
 						<p className="text-[#39393A] text-[24px] pt-6 flex-[3] font-bold">
 							Onsdag
