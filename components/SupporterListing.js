@@ -59,7 +59,7 @@ const SupporterListing = ({ supporters }) => {
 								) {
 									return (
 										<div
-											key="supporter.fields.name"
+											key={supporter.fields.name}
 											className="p-3 min-w-[125px] md:flex-[0_1_30%] flex-1"
 										>
 											<div className="relative lg:h-52 lg:max-h-52 max-h-40 h-40">
@@ -95,7 +95,7 @@ const SupporterListing = ({ supporters }) => {
 								) {
 									return (
 										<div
-											key="supporter.fields.name"
+											key={supporter.fields.name}
 											className="p-4 flex-[0_1_50%] md:flex-[0_1_25%] justify-center items-center text-center"
 										>
 											<div className="relative lg:max-h-32 lg:h-32 max-h-28 h-28">
