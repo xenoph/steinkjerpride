@@ -35,6 +35,7 @@ export default function Meta() {
 			<meta name="theme-color" content="#000" />
 			<link rel="alternate" type="application/rss+xml" href="/feed.xml" />
 			<meta name="description" content="En side for Steinkjer Pride" />
+			<title>Steinkjer Pride</title>
 		</Head>
 	);
 }
