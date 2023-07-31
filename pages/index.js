@@ -12,14 +12,15 @@ export default function Home({ supporters, posts }) {
     return (
         <Layout>
             <Intro />
-            <Finished />
+            <ProgramListing />
             <AboutPride />
             <AboutUs />
-            <SupporterListing supporters={supporters} />
             <Skamlos />
         </Layout>
     );
 }
+
+            //<SupporterListing supporters={supporters} />
 
 export const getStaticProps = async () => {
     const client = createClient({
