@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 300px;
+    }
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.sideWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    line-height: 1.5rem;
+}
+
+.sideWrapper:last-of-type {
+    text-align: right;
+}
+
+.fbButton  {
+    background-color: #3391E9;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+}
