@@ -19,7 +19,7 @@ const ProgramListing = () => {
 						<EventBox day="Fredag" time="17:00" event="Barnedisco" link="https://www.facebook.com/events/649270633963565/" />
 						<EventBox day="Fredag" time="19:00" event="Ung Pride" link="https://www.facebook.com/events/996742271578436/" />
 						<EventBox day="Fredag" time="20:00" event="PrideBingo" link="https://www.facebook.com/events/1060973988253205/" />
-						<EventBox day="Lørdag" time="13:00" event="Pride parade" link="https://www.facebook.com/events/704313718377787/" />
+						<EventBox day="Lørdag" time="13:30" event="Pride parade" link="https://www.facebook.com/events/704313718377787/" />
 						<EventBox day="Lørdag" time="19:00" event="Pride aften" link="https://www.facebook.com/events/1083695165929608/" />
 					</div>
 				</div>
