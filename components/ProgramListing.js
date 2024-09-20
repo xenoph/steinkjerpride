@@ -15,8 +15,7 @@ const ProgramListing = () => {
 				</div>
 				<div className="gap-3 flex md:flex-row flex-col md:justify-between w-[100%] md:w-[100vw] lg:w-auto text-center">
 					<div className="gap-3 flex flex-col md:flex-row md:flex-wrap leading-none">
-						<EventBox day="Torsdag" time="15:45" event="Flaggheising på Steinkjer Rådhus" link="https://www.facebook.com/events/598058869071248/"/>
-						<EventBox day="Fredag" time="17:00" event="Barnedisco" link="https://www.facebook.com/events/649270633963565/" />
+						<EventBox day="Fredag" time="17:00" event="Barnedisco" link="https://www.facebook.com/events/1208657836932065/" />
 						<EventBox day="Fredag" time="17:30" event="Ung Pride" link="https://www.facebook.com/events/1027676278737822" />
 						<EventBox day="Lørdag" time="12:30" event="Pride parade" link="https://www.facebook.com/events/1756009101604836/" />
 						<EventBox day="Lørdag" time="19:00" event="Pride aften" link="https://www.facebook.com/events/381377364986113/" />
@@ -27,7 +26,7 @@ const ProgramListing = () => {
 						Facebook event:
 					</h2>
 					<a
-						href="https://www.facebook.com/events/1608058446328637"
+						href="https://www.facebook.com/events/283327987735900"
 						className="text-blue-400 underline"
 					>
 					Steinkjer Pride 2023 - Vi feirer fem år! 
