@@ -17,10 +17,9 @@ const ProgramListing = () => {
 					<div className="gap-3 flex flex-col md:flex-row md:flex-wrap leading-none">
 						<EventBox day="Torsdag" time="15:45" event="Flaggheising på Steinkjer Rådhus" link="https://www.facebook.com/events/598058869071248/"/>
 						<EventBox day="Fredag" time="17:00" event="Barnedisco" link="https://www.facebook.com/events/649270633963565/" />
-						<EventBox day="Fredag" time="19:00" event="Ung Pride" link="https://www.facebook.com/events/996742271578436/" />
-						<EventBox day="Fredag" time="20:00" event="PrideBingo" link="https://www.facebook.com/events/1060973988253205/" />
-						<EventBox day="Lørdag" time="13:30" event="Pride parade" link="https://www.facebook.com/events/704313718377787/" />
-						<EventBox day="Lørdag" time="19:00" event="Pride aften" link="https://www.facebook.com/events/1083695165929608/" />
+						<EventBox day="Fredag" time="17:30" event="Ung Pride" link="https://www.facebook.com/events/1027676278737822" />
+						<EventBox day="Lørdag" time="12:30" event="Pride parade" link="https://www.facebook.com/events/1756009101604836/" />
+						<EventBox day="Lørdag" time="19:00" event="Pride aften" link="https://www.facebook.com/events/381377364986113/" />
 					</div>
 				</div>
 				<div className="flex flex-col lg:w-[430px] pt-12">
