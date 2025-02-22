@@ -17,7 +17,7 @@ const Intro = () => {
                     <br />
                     PRIDE
                 </h1>
-                <p className="text-[2rem] text-white font-bold">20 - 21 SEPTEMBER 2024</p>
+                <p className="text-[2rem] text-white font-bold">29 - 30 AUGUST 2025</p>
             </div>
         </section>
     );
