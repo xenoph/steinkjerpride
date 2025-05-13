@@ -22,7 +22,7 @@ const ProgramListing = () => {
 		                                <EventBox day="Lørdag" time="11:00" event="Kunstutstilling" link="https://www.facebook.com/events/543851328222577" />
 						<EventBox day="Lørdag" time="12:30" event="Pride parade" link="https://www.facebook.com/events/1756009101604836/" />
 						<EventBox day="Lørdag" time="19:00" event="Pride aften" link="https://www.facebook.com/events/381377364986113/" />*/
-						KOMMER SNART!
+						KOMMER SNART! :) 
 					</div>
 				</div>
 				<div className="flex flex-col lg:w-[430px] pt-12">
