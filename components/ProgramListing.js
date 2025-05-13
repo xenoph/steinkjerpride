@@ -30,7 +30,7 @@ const ProgramListing = () => {
 						Facebook event:
 					</h2>
 					<a
-						href="https://www.facebook.com/events/645279171494374/"
+						href="https://www.facebook.com/events/645279171494374"
 						className="text-blue-400 underline"
 					>
 					Steinkjer Pride 2023 - Vi feirer fem år! 
